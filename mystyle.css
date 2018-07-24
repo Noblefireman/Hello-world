@@ -1,7 +1,8 @@
-p{
+p {
 color: lightyellow;
 background-color: darkcyan;
-font-size: 5vw;}
+/*font-size: 5vw;*/
+}
 
 ul{
 font-style: italic;
