@@ -1,6 +1,8 @@
 p{
 color: lightyellow;
-background-color: darkcyan}
+background-color: darkcyan;
+font-size: 10vw;}
+
 ul{
 font-style: italic;
 }
@@ -15,7 +17,7 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-    float: right;
+    float: left;
     width: 30%;
     height: 300px; /* only for demonstration, should be removed */
     background: #ccc;
