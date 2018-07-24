@@ -1,10 +1,9 @@
 <!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
 <HTML>
    <HEAD>
-      <link rel="stylesheet" href="mystyle.css">
-      <TITLE>
-         A Small Hello 
-      </TITLE>
+      <title>My Test page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="mystyle.css">
    </HEAD>
 <BODY>
 <h1>My First JavaScript</h1>
@@ -14,7 +13,37 @@ onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
 
 <p id="demo"></p>
+ <hr>
+ <br>
+ 
+<h2>CSS Layout Float test</h2>
+<header>
+  <h2>Data</h2>
+</header>
 
+<section>
+  <nav>
+    <ul>
+      <li><a href="#B1">First part</a></li>
+      <li><a href="#B2">Second Part</a></li>
+      <li><a href="#B3">Third part</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 id="B1">Первая часть</h1>
+    <p>Первая часть. Для ознакомления. Что тут написано не суть важно.</p>
+    <h1 id="B2">Вторая часть</h1>
+    <p>Вторая часть. Для ознакомления. Что тут написано не суть важно, но что-то другое.</p>
+    <h1 id="B3">Третья часть</h1>
+    <p>Третья часть. Для ознакомления. Что тут написано не суть важно, оп-па.</p>
+    
+   </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
 
 </BODY>
 </HTML>
